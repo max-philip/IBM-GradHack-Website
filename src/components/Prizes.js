@@ -10,7 +10,7 @@ export default class Prizes extends Component {
     return (
       <CardGroup>
         <Card className="card">
-          {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
+          <Card.Img src={require("../images/google-home.jpg")} style={{width:"50%", display: "block", margin:"auto"}}/>
           <Card.Body>
             <Card.Title className="info-title">1st Place</Card.Title>
             <Card.Text>
@@ -19,7 +19,7 @@ export default class Prizes extends Component {
           </Card.Body>
         </Card>
         <Card>
-          {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
+        <Card.Img src={require("../images/movie.png")} style={{width:"50%", display: "block", margin:"auto"}}/>
           <Card.Body>
             <Card.Title className="info-title">2nd Place</Card.Title>
             <Card.Text>
