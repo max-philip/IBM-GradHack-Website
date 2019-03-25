@@ -1,0 +1,19 @@
+/* .card:hover{
+  background-color: #76a6f8;
+} */
+
+$text-color: #293856;
+
+
+.card{
+  border: none;
+  color: $text-color;
+  font-size: 20px;
+  text-align: center;
+}
+
+.info-title {
+  font-weight: bold;
+  font-size: 25px;
+
+}
