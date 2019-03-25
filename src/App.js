@@ -50,11 +50,14 @@ class App extends Component {
         <hr class="separator separator--line-thin" />
         <Heading title="What will you be doing?"/>
         <InfoCards />
+        <br /><br /><br />
+        <Heading title="Project Suggestions"/>
+        <Examples />
         <br/><br />
 
 
         <hr class="separator separator--line-thin" />
-        <Heading title="The judges"/>
+        <Heading title="The Judges"/>
         <Judges />
         <br/><br />
 
