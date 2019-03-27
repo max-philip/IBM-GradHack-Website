@@ -33,7 +33,7 @@ export default class InfoCards extends Component {
         <Card>
           {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
           <Card.Body>
-            <Card.Title className="info-title">Be fast and efficient</Card.Title>
+            <Card.Title className="info-title">Be fast and efficient (?)</Card.Title>
             <Card.Text>
               Teams will have 24 hours to complete their hack. "blah blah blah blah blah".
             </Card.Text>
