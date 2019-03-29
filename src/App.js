@@ -44,7 +44,7 @@ class App extends Component {
 
         <img 
         style={{width:"100%", display: "block", margin:"auto", paddingBottom:"30px"}}
-        src={require("./images/cartoon2.png")}
+        src={require("./images/hack_stock.png")}
         />
 
         
