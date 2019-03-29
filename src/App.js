@@ -22,11 +22,17 @@ class App extends Component {
       <div className="bodyWrapper">
 
         <div className="titleBlock">
-        IBM GradHack 2019
+        IBM GRADHACK 2019
         </div>
 
+        <div className="dateTitle">
+        June 14 - 17
+        </div>
+
+        <br />
+
         <div className="heading">
-        Innovate the graduate experience.
+        Innovate something
         </div>
 
         <hr class="separator" />
@@ -38,10 +44,11 @@ class App extends Component {
 
         <img 
         style={{width:"100%", display: "block", margin:"auto", paddingBottom:"30px"}}
-        src={require("./images/hack_stock.png")}
+        src={require("./images/cartoon2.png")}
         />
+
         
-        <hr class="separator separator--line-thin" />
+<hr class="separator separator--line" />
         <Heading title="What is IBM GradHack?"/>
         <MainInfo />
         <br/><br />
@@ -74,7 +81,7 @@ class App extends Component {
         
 
         <hr class="separator separator--line-thin" />
-        <Heading title="The Team"/>
+        <Heading title="The GradHack Committee"/>
         <About />
         
       </div>

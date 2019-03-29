@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
+
 * {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 h1 {
@@ -110,7 +112,16 @@ $text-color: #061f80;
   text-align: center;
   color: $text-color;
   font-weight: bold;
+  letter-spacing: 3px;
+
   font-size: 60px;
+}
+
+.dateTitle {
+  text-align: center;
+  color: $text-color;
+  font-weight: bold;
+  font-size: 40px;
 }
 
 .heading {
