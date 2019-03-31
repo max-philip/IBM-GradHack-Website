@@ -5,6 +5,7 @@ import { Card, CardGroup } from 'react-bootstrap'
 import '../styles/card.scss'
 
 
+
 export default class InfoCards extends Component {
   render() {
     return (

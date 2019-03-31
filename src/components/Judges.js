@@ -9,7 +9,7 @@ export default class InfoCards extends Component {
   render() {
     return (
       <div>
-        <div>
+        <div className="desc-para">
           Our judges will be tasked with deciding which "hacks" and ideas are the best of the bunch. They
           will be paying close attention to [...], [...] and [...], so do your best to get these right!
         </div>
