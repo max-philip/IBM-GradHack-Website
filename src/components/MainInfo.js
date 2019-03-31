@@ -2,18 +2,38 @@ import React, { Component } from 'react'
 
 import Values from './Values'
 
+import '../styles/maininfo.scss'
+ 
+
 
 export default class MainInfo extends Component {
   render() {
     return (
       <div>
-        <div>
-          A beautiful little sunset. The shadows are just like the highlights, but we're going in the opposite direction. Use what you see, don't plan it. You can't have light without dark. You can't know happiness unless you've known sorrow.
-          We'll throw some happy little limbs on this tree. This is where you take out all your hostilities and frustrations. It's better than kicking the puppy dog around and all that so. We start with a vision in our heart, and we put it on canvas. All you have to learn here is how to have fun.
-          We're not trying to teach you a thing to copy. We're just here to teach you a technique, then let you loose into the world. I'm a water fanatic. I love water. Zip. That easy. Little short strokes.
-          Don't forget to tell these special people in your life just how special they are to you. Just think about these things in your mind and drop em' on canvas. Be careful. You can always add more - but you can't take it away. Tree trunks grow however makes them happy. Just use the old one inch brush. You can do anything your heart can imagine.
+        <div className="text">
+        We are IBM A/NZ's first graduate hackathon community. This is a Hackathon by Grads for Grads
+        to solve issues Grads face. We plan to bring together a diverse range of graduates of all
+        backgrounds and skillsets, to collaborate and bring innovative ideas to life - fostering
+        the next generation of IBM developers, thinkers and innovators.
+
         </div>
         <br /><br />
+        <div className="text">
+        <b>What is a Hackathon: </b>
+        A hackathon is any event of any duration where people come together to solve problems with
+        a "hack" with the freedom to work on whatever they want. 
+        <br /><br />
+        For this hackathon you will, in a teams of 3-4, work together to build your idea 
+        (whether that be an app, website, business plan or anything really!)
+
+        </div>
+        <br /><br /><br />
+        <div className="text">
+        <i><b>It's also a great chance for some of our IBM 1-3-9 Practices to be put on display!</b></i>
+       
+
+        </div>
+        <br />
         <Values />
       </div>
     )

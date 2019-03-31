@@ -32,7 +32,7 @@ class App extends Component {
         <br />
 
         <div className="heading">
-        Innovate something
+        Innovate the graduate experience (???)
         </div>
 
         <hr class="separator" />
@@ -48,7 +48,7 @@ class App extends Component {
         />
 
         
-<hr class="separator separator--line" />
+        <hr class="separator separator--line" />
         <Heading title="What is IBM GradHack?"/>
         <MainInfo />
         <br/><br />
@@ -64,13 +64,13 @@ class App extends Component {
 
 
         <hr class="separator separator--line-thin" />
-        <Heading title="The Judges"/>
+        <Heading title="The Judges (TBD)"/>
         <Judges />
         <br/><br />
 
 
         <hr class="separator separator--line-thin" />
-        <Heading title="Prizes"/>
+        <Heading title="Prizes (TBD - these are placeholders)"/>
         <Prizes />
         <br/><br />
 
