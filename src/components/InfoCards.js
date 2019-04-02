@@ -34,9 +34,10 @@ export default class InfoCards extends Component {
         <Card>
           {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
           <Card.Body>
-            <Card.Title className="info-title">Be fast and efficient (???)</Card.Title>
+            <Card.Title className="info-title">Create valuable outcomes</Card.Title>
             <Card.Text>
-              Teams will have 24 hours (TBD) to complete their hack.
+            Your team's idea could be considered for implementation as an internal project.
+            Turn that idea you've been thinking of into a reality!
             </Card.Text>
           </Card.Body>
         </Card>

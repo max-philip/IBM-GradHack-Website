@@ -10,8 +10,13 @@ export default class InfoCards extends Component {
     return (
       <div>
         <div className="desc-para">
-          Our judges will be tasked with deciding which "hacks" and ideas are the best of the bunch. They
-          will be paying close attention to [...], [...] and [...], so do your best to get these right!
+        Our judges will be tasked with deciding which "hacks" and ideas are the best of the bunch. 
+        They will be paying close attention to creativeness, usefulness, feasibility, and presentation
+        effectiveness,  so do your best to get these right!
+        </div>
+        <br /><br />
+        <div className="desc-para">
+        Judges will be revealed soon...
         </div>
         <br />
       <CardGroup>
@@ -20,7 +25,7 @@ export default class InfoCards extends Component {
           <Card.Body>
             <Card.Title className="info-title">Judge 1</Card.Title>
             <Card.Text>
-              [judge info]
+              [TBD]
             </Card.Text>
           </Card.Body>
         </Card>
@@ -29,7 +34,7 @@ export default class InfoCards extends Component {
           <Card.Body>
             <Card.Title className="info-title">Judge 2</Card.Title>
             <Card.Text>
-              [judge info]
+              [TBD]
             </Card.Text>
           </Card.Body>
         </Card>
@@ -38,7 +43,7 @@ export default class InfoCards extends Component {
           <Card.Body>
             <Card.Title className="info-title">Judge 3</Card.Title>
             <Card.Text>
-              [judge info]
+              [TBD]
             </Card.Text>
           </Card.Body>
         </Card>

@@ -58,13 +58,13 @@ class App extends Component {
         <Heading title="What will you be doing?"/>
         <InfoCards />
         <br /><br /><br />
-        <Heading title="Project Suggestions"/>
+        <Heading title="Project Idea Examples"/>
         <Examples />
         <br/><br />
 
 
         <hr class="separator separator--line-thin" />
-        <Heading title="The Judges (TBD)"/>
+        <Heading title="The Judges"/>
         <Judges />
         <br/><br />
 
