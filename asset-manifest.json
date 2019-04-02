@@ -1,13 +1,13 @@
 {
   "main.css": "/IBM-GradHack-Website/static/css/main.4b96b458.chunk.css",
-  "main.js": "/IBM-GradHack-Website/static/js/main.f7f88484.chunk.js",
-  "main.js.map": "/IBM-GradHack-Website/static/js/main.f7f88484.chunk.js.map",
+  "main.js": "/IBM-GradHack-Website/static/js/main.a18fc433.chunk.js",
+  "main.js.map": "/IBM-GradHack-Website/static/js/main.a18fc433.chunk.js.map",
   "runtime~main.js": "/IBM-GradHack-Website/static/js/runtime~main.b5de728e.js",
   "runtime~main.js.map": "/IBM-GradHack-Website/static/js/runtime~main.b5de728e.js.map",
-  "static/js/2.09a19d0f.chunk.js": "/IBM-GradHack-Website/static/js/2.09a19d0f.chunk.js",
-  "static/js/2.09a19d0f.chunk.js.map": "/IBM-GradHack-Website/static/js/2.09a19d0f.chunk.js.map",
+  "static/js/2.58c956ab.chunk.js": "/IBM-GradHack-Website/static/js/2.58c956ab.chunk.js",
+  "static/js/2.58c956ab.chunk.js.map": "/IBM-GradHack-Website/static/js/2.58c956ab.chunk.js.map",
   "index.html": "/IBM-GradHack-Website/index.html",
-  "precache-manifest.70c76af0afee19f49309e216c2fc262b.js": "/IBM-GradHack-Website/precache-manifest.70c76af0afee19f49309e216c2fc262b.js",
+  "precache-manifest.937b06fe5b249437f1ff067bb6460f2d.js": "/IBM-GradHack-Website/precache-manifest.937b06fe5b249437f1ff067bb6460f2d.js",
   "service-worker.js": "/IBM-GradHack-Website/service-worker.js",
   "static/css/main.4b96b458.chunk.css.map": "/IBM-GradHack-Website/static/css/main.4b96b458.chunk.css.map",
   "static/media/brain.svg": "/IBM-GradHack-Website/static/media/brain.10d722c5.svg",
@@ -15,5 +15,6 @@
   "static/media/google-home.jpg": "/IBM-GradHack-Website/static/media/google-home.5d448ad7.jpg",
   "static/media/hack_stock.png": "/IBM-GradHack-Website/static/media/hack_stock.848de6fc.png",
   "static/media/movie.png": "/IBM-GradHack-Website/static/media/movie.93ce3ce7.png",
+  "static/media/placehold_badge.png": "/IBM-GradHack-Website/static/media/placehold_badge.df62a79a.png",
   "static/media/teamwork.svg": "/IBM-GradHack-Website/static/media/teamwork.78f0e804.svg"
 }
