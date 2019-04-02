@@ -9,13 +9,20 @@ export default class Prizes extends Component {
   render() {
     return (
       <div>
+
+        <br />
+        <div className="desc-para">
+        Official prizes to be revealed soon...
+        </div>
+        <br />
+
       <CardGroup>
         <Card className="card">
           {/* <Card.Img src={require("../images/google-home.jpg")} style={{width:"250px", display: "block", margin:"auto"}}/> */}
           <Card.Body>
             <Card.Title className="info-title">1st Place</Card.Title>
             <Card.Text>
-              The winners get a [....] each!
+              The winners get a [TBD] each!
             </Card.Text>
           </Card.Body>
         </Card>
@@ -24,7 +31,7 @@ export default class Prizes extends Component {
           <Card.Body>
             <Card.Title className="info-title">2nd Place</Card.Title>
             <Card.Text>
-              The runners up get a [....] each!
+              The runners up get a [TBD] each!
             </Card.Text>
           </Card.Body>
         </Card>

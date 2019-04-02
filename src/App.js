@@ -70,7 +70,7 @@ class App extends Component {
 
 
         <hr class="separator separator--line-thin" />
-        <Heading title="Prizes (TBD)"/>
+        <Heading title="Prizes"/>
         <Prizes />
         <br/><br />
 
