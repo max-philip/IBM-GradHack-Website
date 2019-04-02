@@ -24,19 +24,19 @@ self.__precacheManifest = [
     "url": "/IBM-GradHack-Website/static/js/runtime~main.b5de728e.js"
   },
   {
-    "revision": "7092a8cd8bbd55d43c9d",
-    "url": "/IBM-GradHack-Website/static/js/main.7092a8cd.chunk.js"
+    "revision": "be04b5156729e31bcdea",
+    "url": "/IBM-GradHack-Website/static/js/main.be04b515.chunk.js"
   },
   {
     "revision": "e6182ad71a6465b85fdb",
     "url": "/IBM-GradHack-Website/static/js/2.e6182ad7.chunk.js"
   },
   {
-    "revision": "7092a8cd8bbd55d43c9d",
-    "url": "/IBM-GradHack-Website/static/css/main.59fccd19.chunk.css"
+    "revision": "be04b5156729e31bcdea",
+    "url": "/IBM-GradHack-Website/static/css/main.b50640fe.chunk.css"
   },
   {
-    "revision": "975e4d90f2dbf18ac8bbd18ce4d002b6",
+    "revision": "c6ea707b074633875bbf1ab5134cdb26",
     "url": "/IBM-GradHack-Website/index.html"
   }
 ];
