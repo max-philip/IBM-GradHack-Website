@@ -11,7 +11,7 @@ export default class Prizes extends Component {
       <div>
       <CardGroup>
         <Card className="card">
-          <Card.Img src={require("../images/google-home.jpg")} style={{width:"250px", display: "block", margin:"auto"}}/>
+          {/* <Card.Img src={require("../images/google-home.jpg")} style={{width:"250px", display: "block", margin:"auto"}}/> */}
           <Card.Body>
             <Card.Title className="info-title">1st Place</Card.Title>
             <Card.Text>
@@ -20,7 +20,7 @@ export default class Prizes extends Component {
           </Card.Body>
         </Card>
         <Card>
-        <Card.Img src={require("../images/movie.png")} style={{width:"250px", display: "block", margin:"auto"}}/>
+        {/* <Card.Img src={require("../images/movie.png")} style={{width:"250px", display: "block", margin:"auto"}}/> */}
           <Card.Body>
             <Card.Title className="info-title">2nd Place</Card.Title>
             <Card.Text>
@@ -39,13 +39,17 @@ export default class Prizes extends Component {
 
       <CardGroup>
       <Card className="card">
-        <Card.Img src={require("../images/placehold_badge.png")} style={{width:"200px", display: "block", margin:"auto"}}/>
+      <a href="https://www.youracclaim.com/org/ibm/badge/early-professional-hackathon">
+        <Card.Img 
+          src={require("../images/placehold_badge.png")} 
+          style={{width:"200px", display: "block", margin:"auto"}}/>
         <Card.Body>
           <Card.Title className="info-title">Hackathon Badge</Card.Title>
           <Card.Text>
             Everyone gets one!
           </Card.Text>
         </Card.Body>
+        </a>
       </Card>
     </CardGroup>
     </div>
