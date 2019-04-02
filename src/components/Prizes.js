@@ -46,7 +46,7 @@ export default class Prizes extends Component {
 
       <CardGroup>
       <Card className="card">
-      <a href="https://www.youracclaim.com/org/ibm/badge/early-professional-hackathon">
+      <a href="https://www.youracclaim.com/org/ibm/badge/early-professional-hackathon" target="_blank">
         <Card.Img 
           src={require("../images/placehold_badge.png")} 
           style={{width:"200px", display: "block", margin:"auto"}}/>

@@ -14,7 +14,7 @@ $text-color: #293856;
 
 .example-card {
   color: #1e2b42;
-  background-color: #eaeaea;
+  background-color: #ededed;
   font-size: 17px;
   border-radius: 20px;
   margin: 18px;
@@ -36,4 +36,9 @@ $text-color: #293856;
   color: $text-color;
   font-size: 20px;
   text-align: center;
+}
+
+a:hover {
+  color: #061f80;
+  text-decoration: none;
 }

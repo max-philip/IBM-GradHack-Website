@@ -9,9 +9,9 @@ export default class Examples extends Component {
   render() {
     return (
       <CardGroup>
-        <Card className="example-card">
+        <Card >
           {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
-          <Card.Body>
+          <Card.Body className="example-card">
             <Card.Text>
               <div className="example-text">Joe, Steven and Sandy turn one of IBM’s elevators into moving
                 barista-made coffee. A mini cafe serving all IBM floors. They
@@ -23,18 +23,18 @@ export default class Examples extends Component {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card className="example-card">
+        <Card>
           {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
-          <Card.Body>
+          <Card.Body className="example-card">
              <Card.Text>
              <div className="example-text">Example 2
               </div>
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card className="example-card">
+        <Card>
           {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
-          <Card.Body>
+          <Card.Body className="example-card">
              <Card.Text>
              <div className="example-text">Example 3
               </div>
