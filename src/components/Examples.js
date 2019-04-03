@@ -27,7 +27,10 @@ export default class Examples extends Component {
           {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
           <Card.Body className="example-card">
              <Card.Text>
-             <div className="example-text">Example 2
+             <div className="example-text">Cybersecurity training is such a bore for Harry, George, 
+             Charlotte and Kate. So they take matters into their own hands and turn the training into 
+             a video game. They work on the game’s design and create storyboards for how players will 
+             progress through the game. They then code a prototype and present a live demo at the showcase.
               </div>
             </Card.Text>
           </Card.Body>

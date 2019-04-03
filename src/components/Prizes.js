@@ -22,7 +22,7 @@ export default class Prizes extends Component {
           <Card.Body>
             <Card.Title className="info-title">1st Place</Card.Title>
             <Card.Text>
-              The winners get a [TBD] each!
+              The winners get a [TBD] each.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -31,7 +31,7 @@ export default class Prizes extends Component {
           <Card.Body>
             <Card.Title className="info-title">2nd Place</Card.Title>
             <Card.Text>
-              The runners up get a [TBD] each!
+              The runners up get a [TBD] each.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -40,7 +40,7 @@ export default class Prizes extends Component {
       <br /><br />
       <div className="desc-para">
         In addition to the two best teams getting their own special prizes, every hackathon participant will
-        recieve a badge to recognise their efforts!
+        receive a badge to recognise their efforts.
       </div>
       <br />
 

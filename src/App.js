@@ -10,6 +10,7 @@ import Examples from './components/Examples'
 
 import MainInfo from './components/MainInfo'
 import About from './components/About'
+import FAQ from './components/FAQ'
 
 import Judges from './components/Judges'
 import Prizes from './components/Prizes'
@@ -73,6 +74,11 @@ class App extends Component {
         <Heading title="Prizes"/>
         <Prizes />
         <br/><br />
+
+        <hr class="separator separator--line-thin" />
+        <Heading title="FAQ"/>
+        <FAQ />
+        <br />
 
         <hr class="separator separator--line-thin" />
         <Heading title="Sign Up Now!"/>
