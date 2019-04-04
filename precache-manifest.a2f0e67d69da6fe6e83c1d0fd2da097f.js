@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/IBM-GradHack-Website/static/media/bulb1.97fee42a.svg"
   },
   {
-    "revision": "427476e1eb11e631d207",
+    "revision": "79ef512166068791b66b",
     "url": "/IBM-GradHack-Website/static/css/main.fb7aa47a.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/IBM-GradHack-Website/static/media/teamwork.78f0e804.svg"
   },
   {
-    "revision": "427476e1eb11e631d207",
-    "url": "/IBM-GradHack-Website/static/js/main.427476e1.chunk.js"
+    "revision": "79ef512166068791b66b",
+    "url": "/IBM-GradHack-Website/static/js/main.79ef5121.chunk.js"
   },
   {
     "revision": "10d722c5924b99233b761ac418f4ebb4",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/IBM-GradHack-Website/static/media/hack_stock.848de6fc.png"
   },
   {
-    "revision": "7b53deef82e225639a6d8c4ca1e04ac3",
+    "revision": "6c36b978ed4ef3c0e31c59f884844a11",
     "url": "/IBM-GradHack-Website/index.html"
   }
 ];
