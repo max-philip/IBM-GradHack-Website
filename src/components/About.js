@@ -9,6 +9,11 @@ export default class About extends Component {
   render() {
     return (
       <div>
+        <div style={{textAlign: "center", fontSize: "28px",
+        fontWeight: "bold", color: "#293856", paddingBottom: "20px"}}>
+        The GradHack Committee</div>
+        <br />
+        
       <CardGroup>
         <Card className="card">
           {/* <Card.Img variant="top" src="holder.js/100px160" /> */}

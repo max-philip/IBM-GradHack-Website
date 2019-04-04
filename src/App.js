@@ -81,13 +81,12 @@ class App extends Component {
         <br />
 
         <hr class="separator separator--line-thin" />
-        <Heading title="Sign Up Now!"/>
+        <Heading title="Register Now!"/>
         <SignUp />
         <br/><br />
         
 
         <hr class="separator separator--line-thin" />
-        <Heading title="The GradHack Committee"/>
         <About />
         
       </div>
