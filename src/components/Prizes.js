@@ -12,7 +12,7 @@ export default class Prizes extends Component {
 
         <br />
         <div className="desc-para">
-        Official prizes to be revealed soon...
+        Official prize to be revealed soon...
         </div>
         <br />
 
@@ -26,20 +26,20 @@ export default class Prizes extends Component {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card>
-        {/* <Card.Img src={require("../images/movie.png")} style={{width:"250px", display: "block", margin:"auto"}}/> */}
+        {/* <Card>
+        <Card.Img src={require("../images/movie.png")} style={{width:"250px", display: "block", margin:"auto"}}/>
           <Card.Body>
             <Card.Title className="info-title">2nd Place</Card.Title>
             <Card.Text>
               The runners up get a [TBD] each.
             </Card.Text>
           </Card.Body>
-        </Card>
+        </Card> */}
       </CardGroup>
 
       <br /><br />
       <div className="desc-para">
-        In addition to the two best teams getting their own special prizes, every hackathon participant will
+        In addition to the members of the winning team getting their own special prize, every hackathon participant will
         receive a badge to recognise their efforts.
       </div>
       <br />

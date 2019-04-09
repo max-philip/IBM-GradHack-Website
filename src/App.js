@@ -59,7 +59,7 @@ class App extends Component {
         <Heading title="What will you be doing?"/>
         <InfoCards />
         <br /><br /><br />
-        <Heading title="Project Idea Examples"/>
+        <Heading title="Project Examples"/>
         <Examples />
         <br/><br />
 
