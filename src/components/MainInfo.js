@@ -11,10 +11,16 @@ export default class MainInfo extends Component {
     return (
       <div>
         <div className="text">
-        Introducing IBM A/NZ's first ever graduate hackathon. This is a hackathon for grads by grads.
-        We plan to bring together a diverse range of graduates of all backgrounds and skill sets, to
-        collaborate and bring innovative ideas to life - fostering the next generation of IBM developers,
-        thinkers and innovators.
+        {/* Introducing IBM A/NZ's first ever graduate hackathon. This is a hackathon for grads by grads. We plan to bring together a diverse range of graduates of all backgrounds and skill sets, to collaborate and bring innovative ideas to life - fostering the next generation of IBM developers, thinkers and innovators. */}
+
+        Welcome to IBM A/NZ’s first ever Graduate Hackathon – IBM GradHack!
+        <br /><br />
+        <b>So what the hack is a hackathon?</b><br/>
+        
+        A hackathon is an opportunity to create, collaborate and have fun, using a 
+        diverse range of skills to bring imaginative and innovative ideas to life – fostering the 
+        next generation of IBM developers, thinkers and innovators.
+        So, join us today in IBM GradHack – for grads, by grads.
 
         </div>
         <br /><br />
