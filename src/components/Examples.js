@@ -133,8 +133,7 @@ export default class Examples extends Component {
         <button className="close-btn" onClick={this.handleCloseModal}>
               x
               </button>
-              <br /><br />
-              <div style={{fontSize: "35px", fontWeight: "bold", textAlign: "center"}}>
+              <div style={{marginTop: "30px", fontSize: "35px", fontWeight: "bold", textAlign: "center"}}>
               ELEVATOR COFFEE
               </div>
               <div style={{fontSize: "20px", fontStyle: "italic", textAlign: "center"}}>
@@ -163,8 +162,7 @@ export default class Examples extends Component {
         <button className="close-btn" onClick={this.handleCloseModal}>
               x
               </button>
-              <br /><br />
-              <div style={{fontSize: "35px", fontWeight: "bold", textAlign: "center"}}>
+              <div style={{marginTop: "30px", fontSize: "35px", fontWeight: "bold", textAlign: "center"}}>
               CYBERGAMES
               </div>
               <div style={{fontSize: "20px", fontStyle: "italic", textAlign: "center"}}>
@@ -193,8 +191,7 @@ export default class Examples extends Component {
         <button className="close-btn" onClick={this.handleCloseModal}>
               x
               </button>
-              <br /><br />
-              <div style={{fontSize: "35px", fontWeight: "bold", textAlign: "center"}}>
+              <div style={{marginTop: "30px", fontSize: "35px", fontWeight: "bold", textAlign: "center"}}>
               EMERGENCY APP
               </div>
               <div style={{fontSize: "20px", fontStyle: "italic", textAlign: "center"}}>
