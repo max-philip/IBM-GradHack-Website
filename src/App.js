@@ -83,13 +83,15 @@ class App extends Component {
         <br /> */}
 
         <hr class="separator separator--line-thin" />
+        <div style={{backgroundColor: "#B1EDEC"}}>
         <br /><br />
         <div className="text">
         If you’re still not convinced, well…there’s free food!
         </div>
         <br /><br />
-        <SignUp />
-        <br/><br />
+        <SignUp col="orange"/>
+        <br/><br /><br />
+        </div>
 
         
 

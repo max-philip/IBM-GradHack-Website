@@ -38,6 +38,12 @@ export default class JudgesPrizes extends Component {
                 <div style={{color: "white"}}>
                   <Heading title="WHAT DO I WIN?"/>
                 </div>
+                <a href="https://www.youracclaim.com/org/ibm/badge/early-professional-hackathon" target="_blank">
+                <img
+                  src={require("../images/badge2.png")} 
+                  style={{width:"175px", display: "block", margin:"auto", padding: "10px"}}/>
+                </a>
+                <br />
                 <div className="text">
                 Official prize to be revealed soon...
                 </div>

@@ -25,7 +25,7 @@ export default class Title extends Component {
 
         <br /><br />
 
-        <SignUp />
+        <SignUp col="blue"/>
         <br />
         </div>
         </div>

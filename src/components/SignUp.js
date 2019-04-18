@@ -13,9 +13,15 @@ export default class InfoCards extends Component {
       // <div className="button-back">
         // <div className="responseButton-wrapper">
         <form action={ConstClass.LINK_SIGNUP} target="_blank">
-          <button className="responseButton">
+          {this.props.col === "orange" ? 
+            <button style={{backgroundColor: "#FFCC66"}} className="responseButton">
             Register Now!
           </button>
+          :
+          <button style={{backgroundColor: "#5CD9D6"}} className="responseButton">
+            Register Now!
+          </button>
+        }
           </form>
         // </div>
       // </div>
