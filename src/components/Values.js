@@ -11,7 +11,7 @@ export default class InfoCards extends Component {
       <CardGroup>
         <Card className="card">
           <img src={require("../images/teamwork.svg")} 
-            style={{width:"50%", display: "block", margin:"auto"}}
+            style={{width:"40%", display: "block", margin:"auto"}}
           />
           <Card.Body>
             <Card.Title className="info-title">Unite to get it done now</Card.Title>
@@ -20,7 +20,7 @@ export default class InfoCards extends Component {
         </Card>
         <Card>
         <img src={require("../images/bulb1.svg")} 
-            style={{width:"50%", display: "block", margin:"auto"}}
+            style={{width:"40%", display: "block", margin:"auto"}}
           />
             <Card.Body>
             <Card.Title className="info-title">Dare to create original ideas</Card.Title>
@@ -29,7 +29,7 @@ export default class InfoCards extends Component {
         </Card>
         <Card>
         <img src={require("../images/brain.svg")} 
-            style={{width:"50%", display: "block", margin:"auto"}}
+            style={{width:"40%", display: "block", margin:"auto"}}
           />
           <Card.Body>
             <Card.Title className="info-title">Show personal interest</Card.Title>
