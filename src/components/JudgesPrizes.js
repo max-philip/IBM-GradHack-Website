@@ -12,11 +12,11 @@ export default class JudgesPrizes extends Component {
     return (
       <div>
 
-        <CardGroup>
+        <CardGroup style={{maxWidth: "1200px", marginLeft: "auto", marginRight: "auto"}}>
           <Card >
             <Card.Body className="judge-card">
               <Card.Text>
-                <div style={{color: "#D0CECE"}}>
+                <div style={{color: "#FFCC66"}}>
                   <Heading title="HOW DO I WIN?"/>
                 </div>
                 <div className="text">
@@ -35,7 +35,7 @@ export default class JudgesPrizes extends Component {
           <Card >
             <Card.Body className="prize-card">
               <Card.Text>
-                <div style={{color: "white"}}>
+                <div style={{color: "#FFCC66"}}>
                   <Heading title="WHAT DO I WIN?"/>
                 </div>
                 <a href="https://www.youracclaim.com/org/ibm/badge/early-professional-hackathon" target="_blank">

@@ -1,0 +1,60 @@
+#example-mod {
+  animation: fade 0.5s linear;
+  background-color: black;
+} 
+
+
+.close-btn {
+  // background-color: #ff00c7;
+  color: grey;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  outline: none ;
+  border: none ;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  height: 30px;
+  width: 30px;
+}
+
+.close-btn:hover {
+  // filter: brightness(85%);
+  color: black;
+  outline: none !important;
+}
+
+
+.close-btn:hover {
+  // filter: brightness(85%);
+  color: black;
+  outline: none !important;
+}
+
+
+.close-btn-BOT {
+  // background-color: #ff00c7;
+  color: white;
+  background-color: #FFCC66;
+  
+  outline: none ;
+  border: none ;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.close-btn-BOT:hover {
+  outline: none !important;
+  filter: brightness(85%);
+}
+
+@keyframes fade {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
+}

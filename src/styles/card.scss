@@ -13,16 +13,22 @@ $text-color: #293856;
 }
 
 .about-card{
-  background-color: #FFCC66;
+  background-color: #FFCC66 !important;
 }
 
 .example-card {
   color: #1e2b42;
-  background-color: #ededed;
+  // background-color: #ededed;
   font-size: 17px;
   border-radius: 20px;
   margin: 18px;
   text-align: left;
+}
+
+.example-img:hover {
+  cursor: pointer;
+  filter: blur(0px) sepia(60%);
+  transition: .25s ease;
 }
 
 .example-text {
@@ -32,7 +38,7 @@ $text-color: #293856;
 
 .info-title {
   font-weight: bold !important;
-  font-size: 25px;
+  font-size: calc(16px + 0.5vw);
 }
 
 .desc-para {
@@ -57,12 +63,15 @@ a:hover {
   font-size: 17px;
   text-align: left;
   padding: 30px;
+  border-right: 3px solid #FFCC66;
+
 }
 
 .prize-card {
   color: #1e2b42;
-  background-color: #D0CECE;
+  background-color: white;
   font-size: 17px;
   text-align: left;
   padding: 30px;
+  border-left: 3px solid #FFCC66;
 }

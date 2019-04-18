@@ -8,7 +8,7 @@ export default class Title extends Component {
   render() {
     return (
       <div className="title-back">
-        <div style={{marginLeft: "auto", marginRight: "auto", maxWidth: "992px"}}>
+        <div style={{marginLeft: "auto", marginRight: "auto", maxWidth: "1200px"}}>
 
         <div className="titleBlock">
         IBM GRADHACK

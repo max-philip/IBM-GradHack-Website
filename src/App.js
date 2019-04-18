@@ -3,19 +3,14 @@ import './styles/App.scss';
 
 import { Navbar, Nav, Card, CardGroup, Jumbotron, Row, Col, Image, Button, Container } from 'react-bootstrap';
 
-import InfoCards from './components/InfoCards'
 
-import Heading from './components/Heading'
 import WhatUDo from './components/WhatUDo'
 
 import Examples from './components/Examples'
 
 import MainInfo from './components/MainInfo'
 import About from './components/About'
-import FAQ from './components/FAQ'
 
-import Judges from './components/Judges'
-import Prizes from './components/Prizes'
 import JudgesPrizes from './components/JudgesPrizes'
 
 import SignUp from './components/SignUp'
@@ -25,6 +20,7 @@ import Schedule from './components/Schedule'
 import Title from './components/Title'
 
 class App extends Component {
+  
   render() {
     return (
       <div className="bodyWrapper">
@@ -45,22 +41,27 @@ class App extends Component {
 
         
         {/* <hr class="separator separator--line" /> */}
-        <hr class="separator separator--line-thin" />
+        {/* <hr class="separator separator--line-thin" /> */}
         <MainInfo />
         <br/><br />
 
 
-        <hr class="separator separator--line-thin" />
+        {/* <hr class="separator separator--line-thin" /> */}
         <WhatUDo />
 
-        <hr class="separator separator--line-thin" />
+        {/* <hr class="separator separator--line-thin" /> */}
         <Examples />
 
-        <hr class="separator separator--line-thin" />
+       
+
+
+
+
+        {/* <hr class="separator separator--line-thin" /> */}
         <Schedule />
 
 
-        <hr class="separator separator--line-thin" />
+        {/* <hr class="separator separator--line-thin" /> */}
         <JudgesPrizes />
 
 
@@ -82,20 +83,20 @@ class App extends Component {
         <FAQ />
         <br /> */}
 
-        <hr class="separator separator--line-thin" />
-        <div style={{backgroundColor: "#B1EDEC"}}>
-        <br /><br />
-        <div className="text">
+        {/* <hr class="separator separator--line-thin" /> */}
+        <div style={{backgroundColor: "#404040"}}>
+        <br /><br /><br />
+        <div className="text" style={{color: "white"}}>
         If you’re still not convinced, well…there’s free food!
         </div>
         <br /><br />
         <SignUp col="orange"/>
-        <br/><br /><br />
+        <br/><br /><br /><br />
         </div>
 
         
 
-        <hr class="separator separator--line-thin" />
+        {/* <hr class="separator separator--line-thin" /> */}
         <About />
         
       </div>

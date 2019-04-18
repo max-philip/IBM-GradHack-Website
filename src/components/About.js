@@ -10,7 +10,7 @@ export default class About extends Component {
   render() {
     return (
       <div style={{ backgroundColor: "#FFCC66", height: "100%", padding: "25px" }}>
-        <div style={{marginLeft: "auto", marginRight: "auto", maxWidth: "992px"}}>
+        <div style={{marginLeft: "auto", marginRight: "auto", maxWidth: "1200px"}}>
 
         <div style={{color: "#293856"}} >
         <Heading title="GOT ANY QUESTIONS?" color="black"/>

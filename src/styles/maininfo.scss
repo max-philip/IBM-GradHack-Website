@@ -4,7 +4,14 @@ $text-color: #293856;
 .text{
   border: none !important;
   color: $text-color;
-  font-size: 20px;
+  font-size: calc(12px + 0.6vw);
+  text-align: center;
+}
+
+.white-text{
+  border: none !important;
+  color: "white";
+  font-size: calc(12px + 0.6vw);
   text-align: center;
 }
 

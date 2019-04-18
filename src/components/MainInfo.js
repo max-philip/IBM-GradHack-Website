@@ -13,22 +13,21 @@ export default class MainInfo extends Component {
     return (
       <div className="maininfo-back">
 
-        <div style={{marginLeft: "auto", marginRight: "auto", maxWidth: "992px"}}>
-        <div style={{color: "#5CD9D6"}} >
+        <div style={{marginLeft: "auto", marginRight: "auto", maxWidth: "1200px"}}>
+        <div style={{color: "#FFCC66"}} >
         <Heading title="WHAT THE HACK IS THIS?" color="black"/>
         </div>
 
         <div className="text">
         {/* Introducing IBM A/NZ's first ever graduate hackathon. This is a hackathon for grads by grads. We plan to bring together a diverse range of graduates of all backgrounds and skill sets, to collaborate and bring innovative ideas to life - fostering the next generation of IBM developers, thinkers and innovators. */}
 
-        Welcome to IBM A/NZ’s first ever Graduate Hackathon – IBM GradHack!
+        GRADHACK is an opportunity to create, collaborate and have fun by bringing together a 
+        diverse range of technical and non-technical skills – fostering the next generation of 
+        IBM developers, thinkers and innovators.
         <br /><br />
-        <b>So what the hack is a hackathon?</b><br/>
         
-        A hackathon is an opportunity to create, collaborate and have fun, using a 
-        diverse range of skills to bring imaginative and innovative ideas to life – fostering the 
-        next generation of IBM developers, thinkers and innovators.
-        So, join us today in IBM GradHack – for grads, by grads.
+        This is your chance to bring imaginative and innovative ideas to life! So, join us today 
+        in IBM GRADHACK – for grads, by grads.
 
         </div>
         <br /><br />
@@ -55,9 +54,9 @@ export default class MainInfo extends Component {
 
         </div>
         </div>
-        <br /><br />
+        <br />
         <div className="text">
-        <i><b>It's also a great chance for some of our IBM 1-3-9 Practices to be put on display!</b></i>
+        <i><b>It's also a great chance for you to put some of our IBM 1-3-9 Practices on display!</b></i>
        
 
         </div>

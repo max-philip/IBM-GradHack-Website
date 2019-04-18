@@ -18,7 +18,7 @@ export default class InfoCards extends Component {
             Register Now!
           </button>
           :
-          <button style={{backgroundColor: "#5CD9D6"}} className="responseButton">
+          <button style={{backgroundColor: "#404040"}} className="responseButton">
             Register Now!
           </button>
         }
