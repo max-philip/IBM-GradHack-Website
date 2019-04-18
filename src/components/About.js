@@ -49,12 +49,23 @@ export default class About extends Component {
             </Card.Text>
           </Card.Body>
         </Card>
+        </CardGroup>
+        <CardGroup>
         <Card className="card about-card">
           {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
           <Card.Body>
             <Card.Title className="info-title">Sarah Karim</Card.Title>
             <Card.Text>
             Sarah.Karim@ibm.com
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className="card about-card">
+          {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
+          <Card.Body>
+            <Card.Title className="info-title">Jarry Chen</Card.Title>
+            <Card.Text>
+            Jarry.Chen@ibm.com
             </Card.Text>
           </Card.Body>
         </Card>
