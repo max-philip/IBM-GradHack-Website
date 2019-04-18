@@ -4,18 +4,25 @@ import { Card, CardGroup } from 'react-bootstrap'
 
 import '../styles/card.scss'
 
+import Heading from './Heading'
 
 export default class About extends Component {
   render() {
     return (
-      <div>
-        <div style={{textAlign: "center", fontSize: "28px",
-        fontWeight: "bold", color: "#293856", paddingBottom: "20px"}}>
-        The GradHack Committee</div>
+      <div style={{ backgroundColor: "#FFCC66", height: "100%", padding: "25px" }}>
+        <div style={{marginLeft: "auto", marginRight: "auto", maxWidth: "992px"}}>
+
+        <div style={{color: "#293856"}} >
+        <Heading title="GOT ANY QUESTIONS?" color="black"/>
+        </div>
+
+        <div className="text">
+          Feel free to reach out to the nerds behind this:
+        </div>
         <br />
         
-      <CardGroup>
-        <Card className="card">
+      <CardGroup >
+        <Card className="card about-card">
           {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
           <Card.Body>
             <Card.Title className="info-title">Max Philip</Card.Title>
@@ -24,7 +31,7 @@ export default class About extends Component {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card>
+        <Card className="card about-card">
           {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
           <Card.Body>
             <Card.Title className="info-title">Christine Liu</Card.Title>
@@ -33,7 +40,7 @@ export default class About extends Component {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card>
+        <Card className="card about-card">
           {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
           <Card.Body>
             <Card.Title className="info-title">Matthew Cheah</Card.Title>
@@ -42,9 +49,7 @@ export default class About extends Component {
             </Card.Text>
           </Card.Body>
         </Card>
-        </CardGroup>
-        <CardGroup>
-        <Card>
+        <Card className="card about-card">
           {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
           <Card.Body>
             <Card.Title className="info-title">Sarah Karim</Card.Title>
@@ -53,16 +58,9 @@ export default class About extends Component {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card>
-          {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
-          <Card.Body>
-            <Card.Title className="info-title">Jarry Chen</Card.Title>
-            <Card.Text>
-            Jarry.Chen@ibm.com
-            </Card.Text>
-          </Card.Body>
-        </Card>
+        
       </CardGroup>
+      </div>
       </div>
     )
   }

@@ -6,6 +6,8 @@ import { Navbar, Nav, Card, CardGroup, Jumbotron, Row, Col, Image, Button, Conta
 import InfoCards from './components/InfoCards'
 
 import Heading from './components/Heading'
+import WhatUDo from './components/WhatUDo'
+
 import Examples from './components/Examples'
 
 import MainInfo from './components/MainInfo'
@@ -14,57 +16,57 @@ import FAQ from './components/FAQ'
 
 import Judges from './components/Judges'
 import Prizes from './components/Prizes'
+import JudgesPrizes from './components/JudgesPrizes'
 
 import SignUp from './components/SignUp'
+
+import Schedule from './components/Schedule'
+
+import Title from './components/Title'
 
 class App extends Component {
   render() {
     return (
       <div className="bodyWrapper">
 
-        <div className="titleBlock">
-        IBM GRADHACK 2019
-        </div>
+      
+        <Title />
+        {/* <hr class="separator" /> */}
 
-        <div className="dateTitle">
-        June 14 - 17
-        </div>
+        {/* <hr class="separator separator--line" /> */}
 
-        <br />
-
-        <div className="heading">
-        Innovating the graduate experience
-        </div>
-
-        <hr class="separator" />
-
-        <hr class="separator separator--line" />
-
-        <hr class="separator separator--dots" />
+        {/* <hr class="separator separator--dots" /> */}
 
 
-        <img 
+        {/* <img 
         style={{width:"100%", display: "block", margin:"auto", paddingBottom:"30px"}}
         src={require("./images/hack_stock.png")}
-        />
+        /> */}
 
         
-        <hr class="separator separator--line" />
-        <Heading title="What is IBM GradHack?"/>
+        {/* <hr class="separator separator--line" /> */}
+        <hr class="separator separator--line-thin" />
         <MainInfo />
         <br/><br />
 
 
         <hr class="separator separator--line-thin" />
-        <Heading title="What will you be doing?"/>
-        <InfoCards />
-        <br /><br /><br />
-        <Heading title="Project Examples"/>
+        <WhatUDo />
+
+        <hr class="separator separator--line-thin" />
         <Examples />
-        <br/><br />
+
+        <hr class="separator separator--line-thin" />
+        <Schedule />
 
 
         <hr class="separator separator--line-thin" />
+        <JudgesPrizes />
+
+
+
+
+        {/* <hr class="separator separator--line-thin" />
         <Heading title="The Judges"/>
         <Judges />
         <br/><br />
@@ -73,17 +75,22 @@ class App extends Component {
         <hr class="separator separator--line-thin" />
         <Heading title="Prizes"/>
         <Prizes />
-        <br/><br />
+        <br/><br /> */}
 
-        <hr class="separator separator--line-thin" />
+        {/* <hr class="separator separator--line-thin" />
         <Heading title="FAQ"/>
         <FAQ />
-        <br />
+        <br /> */}
 
         <hr class="separator separator--line-thin" />
-        <Heading title="Register Now!"/>
+        <br /><br />
+        <div className="text">
+        If you’re still not convinced, well…there’s free food!
+        </div>
+        <br /><br />
         <SignUp />
         <br/><br />
+
         
 
         <hr class="separator separator--line-thin" />

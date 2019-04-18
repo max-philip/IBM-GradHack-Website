@@ -1,0 +1,33 @@
+$text-color: #061f80;
+
+
+.titleBlock {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  // letter-spacing: 3px;
+
+  font-size: calc(21px + 6vw);
+  
+}
+
+.dateTitle {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: calc(20px + 2vw);
+}
+
+.heading {
+  text-align: center;
+  color: black;
+  font-weight: thin;
+  font-size: calc(14px + 1vw);
+}
+
+.title-back {
+  background-color: #FFCC66;
+  // min-height: 400px;
+  height: 100%;
+  padding: 25px;
+}

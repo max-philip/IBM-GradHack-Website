@@ -1,11 +1,11 @@
 
-$text-color: #293856;
+// $text-color: #293856;
 
 
 .heading-wrapper {
   text-align: center;
-  font-size: 35px;
+  font-size: calc(24px + 1.5vw);
   font-weight: bold;
-  color: $text-color;
+  // color: $text-color;
   padding-bottom: 20px;
 }

@@ -14,7 +14,7 @@ export default class InfoCards extends Component {
         // <div className="responseButton-wrapper">
         <form action={ConstClass.LINK_SIGNUP} target="_blank">
           <button className="responseButton">
-            SIGN UP
+            Register Now!
           </button>
           </form>
         // </div>

@@ -8,8 +8,12 @@ $text-color: #293856;
 .card{
   border: none !important;
   color: $text-color;
-  font-size: 22px;
+  font-size: 20px;
   text-align: center;
+}
+
+.about-card{
+  background-color: #FFCC66;
 }
 
 .example-card {
@@ -41,4 +45,22 @@ $text-color: #293856;
 a:hover {
   color: #061f80;
   text-decoration: none !important;
+}
+
+
+
+
+
+.judge-card {
+  color: #1e2b42;
+  background-color: white;
+  font-size: 17px;
+  text-align: left;
+}
+
+.prize-card {
+  color: #1e2b42;
+  background-color: #D0CECE;
+  font-size: 17px;
+  text-align: left;
 }

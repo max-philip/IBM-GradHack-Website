@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
-
 * {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Hammersmith One', sans-serif;
 }
 
 h1 {
@@ -101,12 +99,12 @@ $text-color: #061f80;
 
 
 
-.bodyWrapper {
-  width: 100%;
-  max-width: 992px;
-  margin: 0 auto;
-  // padding: 8px;
-}
+// .bodyWrapper {
+//   width: 100%;
+//   max-width: 992px;
+//   margin: 0 auto;
+//   // padding: 8px;
+// }
 
 .titleBlock {
   text-align: center;
@@ -141,13 +139,13 @@ $text-color: #061f80;
 
 
 
-body {padding: 40px;}
+// body {padding: 40px;}
 
 $separator-size: 5px;
 $separator-border-style: solid;
 $separator-border-color: #061f80;
-$separator-space-top: 15px;
-$separator-space-bottom: 40px;
+$separator-space-top: 0px;
+$separator-space-bottom: 0px;
 
 $separator-thin-size: 2px;
 $separator-thin-color: lightgrey;
