@@ -17,7 +17,8 @@ import Modal from 'react-modal';
 const customStyles = {
   content : {
     backgroundColor       : "white",
-    fontSize              : "calc(12px + 0.4vw)",
+    fontSize              : "16px",
+    marginBottom: "20px",
   }
 };
 
