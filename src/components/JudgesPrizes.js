@@ -27,7 +27,7 @@ export default class JudgesPrizes extends Component {
                 </div>
                 <br /><br />
                 <div className="text">
-                Judges will be revealed soon...
+                Judges will be revealed soon...
                 </div>
               </Card.Text>
             </Card.Body>
