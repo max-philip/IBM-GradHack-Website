@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/IBM-GradHack-Website/precache-manifest.2274e6c187a3fd29094ac23a732130ef.js"
+  "/IBM-GradHack-Website/precache-manifest.3019a1abcae208daf06bb8682e50340f.js"
 );
 
 workbox.clientsClaim();
